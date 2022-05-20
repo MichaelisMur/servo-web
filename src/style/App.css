@@ -1,0 +1,223 @@
+.card-body svg{
+    font-size: 10px;
+}
+svg text{
+    pointer-events: none;
+}
+.financeMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.financeAdd{
+    width: 30px;
+    height: 30px;
+    /* background-image: url('../img/add.png');
+    background-position: center;
+    background-size: contain;
+    margin: 10px; */
+}
+.financeMenu img {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#back {
+    width: 46px;
+    height: 46px;
+    margin: 12px;
+}
+
+.card .navbar{
+    width: inherit;
+    position: fixed;
+    display: flex;
+    z-index: 30;
+}
+
+.whiteLine{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 52px;
+    width: 100%;
+    z-index: 10;
+}
+.whiteLineInCard{
+    width: 100%;
+    height: 55px;
+}
+
+.addFinance{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 35;
+    backdrop-filter: blur(5px);
+    transition-duration: 1s;
+}
+.react-datepicker-wrapper{
+    width: auto!important;
+}
+.react-datepicker__input-container{
+    display: inline-block;
+    width: auto!important;
+}
+
+.deleteFinance{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.financeDetails {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
+.financeDetails div{
+    display: inline-block;
+}
+
+.react-calendar{
+    margin: auto;
+}
+
+.emotion .card-body{
+    padding: 0 0 40px 0;
+}
+
+.highlightHappy {
+    background: rgba(108, 100, 255, 0.7)!important;;
+}
+
+.highlightNormal {
+    background: rgba(48, 48, 48, 0.5)!important;;
+}
+
+.highlightSad {
+    background: rgba(255, 0, 0, 0.7)!important;;
+}
+
+.chooseEmotion{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.recordEmotion{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0 0 10px;
+}
+
+.emoChosen{
+    transform: scale(1.3);
+}
+
+abbr[title]{
+    text-decoration: none!important;
+    cursor: default!important;
+}
+
+.nastyLine{
+    position: absolute;
+    width: 90%;
+    height: 57px;
+    background: white;
+}
+.stepsBlock .card-body{
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 5px 20px 10px;
+    padding: 5px;
+}
+
+.financeWidget{
+    width: 100%;
+}
+
+.loansColor{
+    background: #5651ab;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: 20px 0 0 100px; */
+}
+.colorsFinance{
+    margin: auto;
+    position: relative;
+    width: 170px;
+    margin-top: 10px;
+}
+.debtsColor{
+    background: #6c64ff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.loansTextLabel{
+    /* height: 20px; */
+    display: inline-block;
+    padding-left: 10px;
+    position: absolute;
+    top: -2px;
+    text-decoration: none;
+    color: black;
+}
+.financeWidget svg{
+    height: 200px;
+}
+
+.emotionsWidgetImg{
+    width: 35px;
+    height: 35px;
+    margin: 10px 20px;
+}
+
+.emotionEntry{
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.emotionsStat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homePage{
+    margin-top: 50px;
+}
+
+.homeSignUp{
+    width: 200px;
+    background: black!important;
+    text-decoration: none;
+    border-color: black!important;
+}
+
+.divSignUp{
+    text-align: center;
+}
+
+.divSignIn{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
